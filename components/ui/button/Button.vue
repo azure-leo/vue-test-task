@@ -3,7 +3,7 @@ import { Primitive, type PrimitiveProps } from 'radix-vue'
 import { buttonVariants } from '.'
 import { cn } from '@/utils'
 
-interface Props extends PrimitiveProps {
+interface Props {
   variant?: NonNullable<Parameters<typeof buttonVariants>[0]>['variant']
   size?: NonNullable<Parameters<typeof buttonVariants>[0]>['size']
   as?: string
